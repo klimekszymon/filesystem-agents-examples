@@ -1,0 +1,16 @@
+{
+  "name": "agent-stage1",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Agent with function calling tools (files, web scraping, email)",
+  "main": "app.js",
+  "scripts": {
+    "start": "node --env-file=.env app.js"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "dependencies": {
+    "zod": "^3.25.0"
+  }
+}

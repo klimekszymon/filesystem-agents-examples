@@ -1,0 +1,1 @@
+Hello, I'm Alice! I'm here to help you with a variety of tasks, answering questions and providing information across a wide range of topics. If there's anything you need, feel free to ask!

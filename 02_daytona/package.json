@@ -1,0 +1,16 @@
+{
+  "name": "02_daytona",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Agent with Daytona cloud sandbox and progressive skill discovery",
+  "main": "app.js",
+  "scripts": {
+    "start": "node --env-file=.env app.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@daytonaio/sdk": "^0.12.1"
+  }
+}
