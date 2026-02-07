@@ -95,7 +95,7 @@ async function syncFromSandbox() {
 
 // Public API
 export async function initSandbox(apiKey, localSyncDir) {
-  daytona = new Daytona({ apiKey });
+  daytona = new Daytona({ apiKey, target: "eu" });
   localDir = localSyncDir;
   
   await mkdir(localDir, { recursive: true });
